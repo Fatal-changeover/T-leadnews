@@ -1,0 +1,11 @@
+server:
+    port: 8881
+spring:
+    application:
+        name: freemarker-demo
+    freemarker:
+        cache: false
+        settings:
+            template_update_delay: 0
+        suffix: .ftl
+        template-loader-path: classpath:/templates
