@@ -6,29 +6,21 @@
         <artifactId>heima-leadnews</artifactId>
         <groupId>com.heima</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>heima-leadnews-feign-api</artifactId>
+    <artifactId>tess4j-demo</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.heima</groupId>
-            <artifactId>heima-leadnews-model</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.heima</groupId>
-            <artifactId>heima-leadnews-common</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-    </dependencies>
-
+<dependencies>
+    <dependency>
+        <groupId>net.sourceforge.tess4j</groupId>
+        <artifactId>tess4j</artifactId>
+        <version>4.1.1</version>
+    </dependency>
+</dependencies>
 </project>

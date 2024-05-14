@@ -19,6 +19,7 @@
         <module>heima-leadnews-test/freemarker-demo</module>
         <module>heima-leadnews-test/Minio</module>
         <module>heima-leadnews-basic</module>
+        <module>heima-leadnews-test/tess4j-demo</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
